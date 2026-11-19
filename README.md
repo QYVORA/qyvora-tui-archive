@@ -1,6 +1,9 @@
 # qyvora-tui
 
-**Status:** `CURRENT` · **Version:** `v0.12.0`
+**Status:** `ARCHIVED` · **Version:** `v0.12.0`
+
+This repository preserves the retired Go TUI. The active `QYVORA/qyvora-tui`
+repository now contains the OpenTUI fork; see [TUI-MIGRATION-MAP.md](../../TUI-MIGRATION-MAP.md).
 
 The shared interactive terminal application for the QYVORA security toolchain.
 
@@ -91,6 +94,14 @@ send one complete `ChatEventMessage` per response.
 
 `/assess <target>` is not a TUI built-in; it is passed to the runner, which may
 choose to treat it as a shortcut. The UI never assumes what the runner can do.
+
+### Planned agent console
+
+`qyvora-tui v0.13.0` will add an additive agent console on top of `RunChat`:
+live tool timeline, plan/frontier panel, findings/evidence panel, approval modal,
+budget and rate-limit display, stop/pause, and session replay. Existing framework
+callers and the current chat API remain compatible. See
+[AI-TUI-UX.md](../../../../knowledge/qyvora-docs/09-technical/QYVORA-AI/AI-TUI-UX.md).
 
 ### Consuming this module
 
