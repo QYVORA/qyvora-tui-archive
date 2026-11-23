@@ -1,0 +1,8 @@
+qyvora-tui-archive
+Copyright (c) 2026 QYVORA
+
+This repository preserves the retired Go TUI implementation and is archived.
+
+Third-party Go module dependencies used by this module are listed in
+THIRD-PARTY-LICENSES.md. License texts for direct dependencies are copied from
+the local Go module cache into `third_party/licenses/`.
