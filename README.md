@@ -5,6 +5,8 @@
 This repository preserves the retired Go TUI. The active `QYVORA/qyvora-tui`
 repository now contains the OpenTUI fork; see [TUI-MIGRATION-MAP.md](../../TUI-MIGRATION-MAP.md).
 
+**Readiness:** `ARCHIVED` supporting repository retained for history, not a public product and not in current development. See the [Product Registry](../../../../knowledge/qyvora-docs/07-products/PRODUCT-REGISTRY.md).
+
 The shared interactive terminal application for the QYVORA security toolchain.
 
 All fourteen QYVORA frameworks expose the same interactive experience, built once
